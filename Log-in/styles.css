@@ -47,6 +47,10 @@ a {
 	text-decoration: none;
 	margin: 15px 0;
 }
+.main{
+	
+	width: 100%;
+}
 
 button {
 	border-radius: 20px;
