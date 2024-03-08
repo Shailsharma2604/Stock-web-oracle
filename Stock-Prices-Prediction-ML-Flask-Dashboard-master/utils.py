@@ -31,7 +31,6 @@ def read_all_stock_files(folder_path):
     for stock_file in allFiles:
         df = pd.read_csv(folder_path + "/" +stock_file)
         dataframe_dict[(stock_file.split('_'))[0]] = df
-
     return dataframe_dict
 # convert an array of values into a dataset matrix
 def create_dataset(dataset, look_back=1):
